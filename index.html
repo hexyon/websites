@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websites</title>	
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button class="header-button" onclick="Websites()">Digital Collection</button>
+        <button class="header-button" onclick="openWebsites()">Open Websites</button>
+    </header>
+    <main>
+        <div class="website" onclick="showDescription('slidePro')">
+            <div class="container">
+                <span class="site-name">Slide Pro</span>
+                <hr>
+                <p class="site-description" id="slidePro-description">A sleek, feature-rich image slideshow web app. Upload multiple images and control the slideshow with start, stop, shuffle, fullscreen, loop, and progress bar options. Customize slide delay, navigate with arrow keys, and enjoy smooth transitions with a responsive design.</p>
+            </div>
+            <a href="https://slidepro.netlify.app" target="_blank">
+                <img src="https://slidepro.netlify.app/favicon.ico" alt="Slide Pro Icon" class="site-icon">
+            </a>
+        </div>
+        <div class="website" onclick="showDescription('hdPhotoFilter')">
+            <div class="container">
+                <span class="site-name">HD Photo Filter</span>
+                <hr>
+                <p class="site-description" id="hdPhotoFilter-description">HD Photo Filter is a web app that allows users to upload photos, classify them by resolution, and download them according to their preferred size categories. The app provides a user-friendly interface for managing photo resolutions, with options to adjust the minimum resolution for classification and keep track of different resolution categories.</p>
+            </div>
+            <a href="https://hdphotofilter.netlify.app" target="_blank">
+                <img src="https://hdphotofilter.netlify.app/favicon.ico" alt="HD Photo Filter Icon" class="site-icon">
+            </a>
+        </div>
+        <div class="website" onclick="showDescription('reader')">
+            <div class="container">
+                <span class="site-name">Reader</span>
+                <hr>
+                <p class="site-description" id="reader-description">Reader is a simple web app designed for rich text editing and display. The application features a clean, minimalist design with rounded edges and a user-friendly interface. Users can input text into an editor with a customized toolbar and submit it to display the formatted content below.</p>
+            </div>
+            <a href="https://readeron.netlify.app" target="_blank">
+                <img src="https://readeron.netlify.app/favicon.ico" alt="Reader On Icon" class="site-icon">
+            </a>
+        </div>
+        <div class="website" onclick="showDescription('randomNumberGenerator')">
+            <div class="container">
+                <span class="site-name">Random Number Generator</span>
+                <hr>
+                <p class="site-description" id="randomNumberGenerator-description">A simple web app that generates 12-digit numbers. It features a button to generate numbers, a display area, and a copy-to-clipboard function. The design includes a responsive layout, and interactive buttons. Ideal for quick and easy random number generation.</p>
+            </div>
+            <a href="https://randomnumbergeneratoron.netlify.app" target="_blank">
+                <img src="https://randomnumbergeneratoron.netlify.app/favicon.ico" alt="Random Number Generator Icon" class="site-icon">
+            </a>
+        </div>
+        <div class="website" onclick="showDescription('photoGallery')">
+            <div class="container">
+                <span class="site-name">Photo Gallery</span>
+                <hr>
+                <p class="site-description" id="photoGallery-description">A minimalist photo gallery web app with a clean design. It features image upload, thumbnail previews, and full-screen viewing with smooth transitions. Navigate through images using arrow keys or on-screen buttons.</p>
+            </div>
+            <a href="https://photogalleryon.netlify.app" target="_blank">
+                <img src="https://photogalleryon.netlify.app/favicon.ico" alt="Photo Gallery On Icon" class="site-icon">
+            </a>
+        </div>
+        <div class="website" onclick="showDescription('gradientDesigner')">
+            <div class="container">
+                <span class="site-name">Gradient Designer</span>
+                <hr>
+                <p class="site-description" id="gradientDesigner-description">A dynamic Gradient Designer web app for creating, customizing, and downloading gradient backgrounds. Generate random gradients, manually select colors, extract colors from photos, and view color names. Enjoy responsive design and an interactive UI for a seamless experience.</p>
+            </div>
+            <a href="https://gradientdesigner.netlify.app" target="_blank">
+                <img src="https://gradientdesigner.netlify.app/favicon.ico" alt="Gradient Designer Icon" class="site-icon">
+            </a>
+        </div>
+        <div class="website" onclick="showDescription('token')">
+            <div class="container">
+                <span class="site-name">Token</span>
+                <hr>
+                <p class="site-description" id="token-description">A sleek, minimalist personal website offering a seamless user experience with intuitive navigation and modern aesthetics.</p>
+            </div>
+            <a href="https://tokenon.netlify.app" target="_blank">
+                <img src="https://tokenon.netlify.app/favicon.ico" alt="Token Icon" class="site-icon">
+            </a>
+        </div>
+        <div class="website" onclick="showDescription('memoryPrism')">
+            <div class="container">
+                <span class="site-name">MemoryPrism</span>
+                <hr>
+                <p class="site-description" id="memoryPrism-description">An online memory that lets you easily write and save your personal entries. Use the simple editor to capture your thoughts, format them as you like, and revisit them anytime. Duplicate entries are prevented to keep your journal unique. You can also save all your entries to a file or load them back, ensuring your memories are secure and accessible.</p>
+            </div>
+            <a href="https://memoryprism.netlify.app" target="_blank">
+                <img src="https://memoryprism.netlify.app/favicon.ico" alt="MemoryPrism Icon" class="site-icon">
+            </a>
+        </div>
+        <div class="website" onclick="showDescription('videoResolutionFilter')">
+            <div class="container">
+                <span class="site-name">Video Resolution Filter</span>
+                <hr>
+                <p class="site-description" id="videoResolutionFilter-description">A sleek web tool to categorize videos by resolution. Upload videos (MP4, WebM, MOV), and sort them into Small, Default, and Large categories based on resolution. Easily adjust threshold settings, view video details, and download categorized files. Designed with a modern UI.</p>
+            </div>
+            <a href="https://videoresolutionfilter.netlify.app" target="_blank">
+                <img src="https://videoresolutionfilter.netlify.app/favicon.ico" alt="Video Resolution Filter Icon" class="site-icon">
+            </a>
+        </div>
+        <div class="website" onclick="showDescription('define+')">
+            <div class="container">
+                <span class="site-name">Define+</span>
+                <hr>
+                <p class="site-description" id="define+-description">Define+ is a modern, responsive English dictionary that combines definitions, pronunciation, synonyms, antonyms, and visual references in a clean interface. Search any word to get comprehensive language data with real-time results and an intuitive UI designed for both desktop and mobile use.</p>
+            </div>
+            <a href="https://defineplus.vercel.app" target="_blank">
+                <img src="https://defineplus.vercel.app/favicon.ico" alt="Define+ Icon" class="site-icon">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <p>Created by AI + <a href="https://github.com/hexyon" target="_blank">Hexy</a></p>
+    </footer>
+    <script>
+        function showDescription(siteId) {
+            const descriptions = document.querySelectorAll('.site-description');
+            descriptions.forEach(desc => desc.style.display = 'none');
+            document.getElementById(siteId + '-description').style.display = 'block';
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const descriptions = document.querySelectorAll('.site-description');
+            descriptions.forEach((desc, index) => {
+                if (index !== 0) desc.style.display = 'none';
+            });
+        });
+
+        function openWebsites() {
+            const urls = [
+                "https://slidepro.netlify.app",
+                "https://hdphotofilter.netlify.app",
+                "https://readeron.netlify.app",
+                "https://randomnumbergeneratoron.netlify.app",
+                "https://photogalleryon.netlify.app",
+                "https://gradientdesigner.netlify.app",
+                "https://tokenon.netlify.app",
+                "https://memoryprism.netlify.app",
+                "https://videoresolutionfilter.netlify.app",
+                "https://defineplus.vercel.app",
+            ];
+            urls.forEach(url => {
+                window.open(url, '_blank');
+            });
+        }
+    </script>
+</body>
+</html>
